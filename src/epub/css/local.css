@@ -45,10 +45,6 @@ section[epub|type~="dedication"] > *{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:song"] p + p{
-	margin-top: 1em;
-}
-
 [epub|type~="z3998:song"] p > span{
 	display: block;
 	padding-left: 1em;
@@ -62,10 +58,6 @@ section[epub|type~="dedication"] > *{
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
-}
-
-[epub|type~="z3998:verse"] p + p{
-	margin-top: 1em;
 }
 
 [epub|type~="z3998:verse"] p > span{
