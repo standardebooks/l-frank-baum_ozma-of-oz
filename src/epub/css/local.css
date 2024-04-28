@@ -2,7 +2,6 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* preface letter */
-
 footer{
 	margin-top: 1em;
 	text-align: right;
@@ -13,7 +12,6 @@ footer{
 }
 
 /* dedication */
-
 section[epub|type~="dedication"]{
 	text-align: center;
 }
@@ -41,8 +39,7 @@ section[epub|type~="dedication"] > *{
 	}
 }
 
-/* song and verse  */
-
+/* song and verse */
 [epub|type~="z3998:song"] p{
 	text-align: initial;
 	text-indent: 0;
@@ -87,7 +84,6 @@ p span.i1{
 }
 
 /* direction blockquotes */
-
 #chapter-4 blockquote{
 	border: 1px solid;
 	padding: 1em;
