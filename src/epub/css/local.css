@@ -39,33 +39,21 @@ section[epub|type~="dedication"] > *{
 	}
 }
 
-/* song and verse */
-[epub|type~="z3998:song"] p{
-	text-align: initial;
-	text-indent: 0;
-}
-
-[epub|type~="z3998:song"] p > span{
-	display: block;
-	padding-left: 1em;
-	text-indent: -1em;
-}
-
-[epub|type~="z3998:song"] p > span + br{
-	display: none;
-}
-
+/* Song, verse */
+[epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
+[epub|type~="z3998:song"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
+[epub|type~="z3998:song"] p > span + br,
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
@@ -74,14 +62,42 @@ p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
 }
+/* End song, verse */
 
 /* direction blockquotes */
-#chapter-4 blockquote{
-	border: 1px solid;
-	padding: 1em;
-}
-
+#chapter-4 blockquote,
 #chapter-6 blockquote{
 	border: 1px solid;
 	padding: 1em;
 }
+
+/* Card, sign */
+header{
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+#chapter-4 blockquote:first-of-type p,
+#chapter-6 blockquote p{
+	text-align: center;
+	text-indent: 0;
+}
+
+#chapter-4 blockquote:last-of-type p{
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+#chapter-6 blockquote p:first-child{
+	padding: 2em;
+}
+
+#chapter-4 b,
+#chapter-6 b{
+	text-transform: uppercase;
+}
+
+#chapter-4 footer{
+	text-align: center;
+}
+/* End card, sign */
