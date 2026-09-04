@@ -30,21 +30,21 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Ozma of Oz</dc:title>
 		<meta property="file-as" refines="#title">Ozma of Oz</meta>
-		<dc:subject id="subject-1">Oz (Imaginary place) -- Juvenile fiction</dc:subject>
+		<dc:subject id="subject-1">Oz (Imaginary place)--Juvenile fiction</dc:subject>
 		<dc:subject id="subject-2">Fantasy literature</dc:subject>
-		<dc:subject id="subject-3">Vacations -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-4">Voyages and travels -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-5">Uncles -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-6">Magic -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-7">Physicians -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-8">Kings and rulers -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-9">Steamboats -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-10">Hens -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-11">Gale, Dorothy (Fictitious character) -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-12">Princess Ozma (Fictitious character) -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-13">Cowardly Lion (Fictitious character) -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-14">Scarecrow (Fictitious character from Baum) -- Juvenile fiction</dc:subject>
-		<dc:subject id="subject-15">Tin Woodman (Fictitious character) -- Juvenile fiction</dc:subject>
+		<dc:subject id="subject-3">Vacations--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-4">Voyages and travels--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-5">Uncles--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-6">Magic--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-7">Physicians--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-8">Kings and rulers--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-9">Steamboats--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-10">Hens--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-11">Gale, Dorothy (Fictitious character)--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-12">Princess Ozma (Fictitious character)--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-13">Cowardly Lion (Fictitious character)--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-14">Scarecrow (Fictitious character from Baum)--Juvenile fiction</dc:subject>
+		<dc:subject id="subject-15">Tin Woodman (Fictitious character)--Juvenile fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
